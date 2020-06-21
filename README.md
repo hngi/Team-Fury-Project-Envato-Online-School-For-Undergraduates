@@ -49,3 +49,4 @@ Make your Pull request from that branch of your repo to the develop branch of th
 Write good commit messages, this is very important, so people reviewing can know what your fix, feature e.t.c. is doing Your PR should carry the story / task URL (instruction from above). if you are going to make changes to an existing code, state why you are doing so in the commit messages
 
 it is not just about the code, user workflow matters too!!
+If you have any issues let the PM(ME) know
