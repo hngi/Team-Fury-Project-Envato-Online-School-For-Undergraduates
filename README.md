@@ -1,7 +1,7 @@
 # Team-Fury-Project-Envato-Online-School-For-Undergraduates
 HNGi7 Stage 3 Task
 
-The proper file structure has been created... The assets folder contains the various folders for css, images, js and src. All html files should go into the src folder, and css, js, and images should go into the respective folders
+The proper file structure has been created...go through all the folders one by one and make sure you use the right folder for the right page. All images and svg are in the assets folder.
 
 Make sure the link tags in your html files are linked properly based on the new file structure.
 
