@@ -129,6 +129,9 @@ font-size:18px;
     min-height: 700px;
    
 }
+a i {
+    color: white;
+}
 
 /*************************************************
             FOOTER
