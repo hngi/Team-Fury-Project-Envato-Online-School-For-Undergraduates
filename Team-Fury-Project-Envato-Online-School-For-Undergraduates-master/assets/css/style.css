@@ -190,13 +190,14 @@ border-radius: 0;
         border: 0px;
         position: absolute;
         top: 200px;
-        left:40px;
+        left:30px;
     }
     .z-mrkt {
     font-size: 30px;
     position: absolute;
     top: 20px;
-    left: 20px;
+    left: 10px;
+    font-size: 22px;
 }
     .float {
         width: 45%;
@@ -227,9 +228,7 @@ footer  .newsletters input{
 
  }
     
-footer  .newsletters .btn{
-     margin-right:20px;
-}
+
 
  @media (max-width:480px) {
      .float {
