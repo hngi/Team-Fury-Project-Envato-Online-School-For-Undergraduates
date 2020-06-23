@@ -1,0 +1,220 @@
+/* Custom Variable */
+/*:root {
+    --primary-color: #e62fe6;
+    --secocndary-color: #f0b1f0;
+    --text-color: #2c2b2b;*/
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn-primary {
+    background: #e62fe6;
+    color: white;
+}
+.btn-primary:hover {
+    background: #f0b1f0;
+}
+
+/******************************************************
+            NAVIGATION
+*******************************************************/
+.navbar {
+    background: #fff;
+}
+ .navbar-light .nav-link {
+    color: #000;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #f0b1f0;
+}
+ .navbar-light .navbar-nav .nav-link.active {
+     border-bottom: 1px solid #e62fe6;
+    color: #e62fe6;
+}
+
+.navbar-light .navbar-brand {
+    font-size: 25pt;
+    font-weight: bolder;
+    color: #e62fe6;
+}
+
+/* Header Section */
+.sc-header {
+    background: url('../img/john-schnobrich-2FPjlAyMQTA-unsplash.jpg') no-repeat center center/cover;
+    min-height: 700px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+.sc-caption {
+    margin: 190px 0px 30px 0px;
+}
+.sc-caption h2 {
+    font-size: 30pt;
+}
+
+
+#about {
+    min-height: 400px;
+    padding-top: 30px;
+}
+#about img {
+    background-color: #e62fe6;
+}
+
+
+/* Section for Course Description */
+#scCourses {
+    background: url('../img/gcsNOsPEXfs.png') no-repeat center center/cover;
+    min-height: 500px;
+}
+.onstat {
+    padding-top: 11em;
+}
+#scAchievement {
+    background: #f0b1f0;
+   position: relative;
+}
+.bg-made {
+    width: 45%;
+    margin: 60px 0px;
+}
+
+.float {
+    width: 25%;
+    height:35%;
+    position:absolute;
+    background: #fbeafb;
+    top: 230px;
+    left: 670px;
+    padding-left: 25px;
+}
+.float h5 {
+    font-size: 160%;
+    padding-top: 15pt;
+}
+.float strong {
+font-size:18px;
+}
+
+
+#reviews {
+    position: relative;
+}
+.comment {
+    border: 0px;
+    position: absolute;
+    bottom: 100px;
+    left:280px;
+}
+.z-mrkt {
+    font-size: 30px;
+    position: absolute;
+    top: 80px;
+    left: 190px;
+}
+.z-mrkt strong {
+    color: #e62fe6;
+}
+
+.media img {
+    width: 14%;
+}
+
+
+.carousel {
+    min-height: 500px;
+}
+.carousel-inner div {
+    min-height: 700px;
+   
+}
+
+/*************************************************
+            FOOTER
+**************************************************/
+footer{
+    background-color: #E62FE6;
+    color: white;
+    padding:50px 0;
+}
+footer .footer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+footer .fh{
+font-size: 20px;
+padding-bottom: 10px;
+}
+footer .flex{
+    display: flex;
+   justify-content: space-between;
+   width: 60%;
+}
+footer .flex li{
+    padding:0 20px ;
+}
+footer ul li{
+    list-style: none;
+    padding: 5px 0;
+}
+footer .m-b li{
+    margin-left:-40px;
+}
+footer ul li a{
+    color: white;
+}
+footer  .newsletters{
+    display: flex;
+}
+footer  .newsletters input{
+    background-color:transparent;
+    border: 1px solid rgb(189, 188, 188);
+    padding:0 10px ;
+}
+    
+footer  .newsletters .btn{
+color: #E62FE6;
+background-color: #fff;
+border-radius: 0;
+}
+ /****************************************
+        Media Query
+ ****************************************/
+ @media (max-width:725px) {
+    
+    .comment {
+        border: 0px;
+        position: absolute;
+        top: 200px;
+        left:40px;
+    }
+    .z-mrkt {
+    font-size: 30px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+    .float {
+        width: 45%;
+        height:40%;
+        position:absolute;
+        background: #fbeafb;
+        top: 130px;
+        left: 200px;
+        padding-left: 25px;
+}
+    .float h5 {
+        font-size: 12px;
+        padding-top: 15pt;
+        position: absolute;
+        top: -40px;
+}
+    .float strong {
+        font-size:8px;
+}
+.float img {
+   width: 10%;
+}
+
+ }
