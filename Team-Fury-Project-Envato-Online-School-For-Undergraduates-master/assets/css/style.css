@@ -117,7 +117,7 @@ font-size:18px;
     color: #e62fe6;
 }
 
-.media img {
+.person1 img {
     width: 14%;
 }
 
@@ -129,9 +129,35 @@ font-size:18px;
     min-height: 700px;
    
 }
-a i {
-    color: white;
+
+/*************************************************
+                GALLERY PAGE
+*************************************************/
+header .carousel-inner img {
+    width:100%;
+    min-height: auto;
 }
+.top-border{
+    border-top: 5px solid#E62FE6;
+    width:10%;
+
+}
+.bottom-border{
+    border-top: 4px solid #f0b1f0;
+    width:100%;
+   
+}
+.g-header {
+    color: #E62FE6;
+}
+.st-test {
+    color: #E62FE6;
+}
+.person4 {
+    background: #E62FE6;
+}
+
+
 
 /*************************************************
             FOOTER
@@ -139,48 +165,40 @@ a i {
 footer{
     background-color: #E62FE6;
     color: white;
-    padding:50px 0;
 }
-footer .footer{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-}
-footer .fh{
-font-size: 20px;
-padding-bottom: 10px;
-}
-footer .flex{
-    display: flex;
-   justify-content: space-between;
-   width: 60%;
-}
-footer .flex li{
-    padding:0 20px ;
-}
+
 footer ul li{
     list-style: none;
     padding: 5px 0;
 }
-footer .m-b li{
-    margin-left:-40px;
-}
+
 footer ul li a{
     color: white;
 }
 footer  .newsletters{
     display: flex;
 }
-footer  .newsletters input{
+footer input[type=email]{
     background-color:transparent;
     border: 1px solid rgb(189, 188, 188);
     padding:0 10px ;
 }
     
-footer  .newsletters .btn{
+footer .btn-primary{
 color: #E62FE6;
 background-color: #fff;
 border-radius: 0;
 }
+a i {
+    color: white;
+}
+.sFooter a {
+    text-decoration: none;
+}
+.sFooter a:hover {
+    color: #f0b1f0;
+}
+
  /****************************************
         Media Query
  ****************************************/
@@ -220,12 +238,18 @@ border-radius: 0;
 .float img {
    width: 10%;
 }
-.footer .fh {
-    font-size: 14px;
-}
-footer  .newsletters input{
-   width:100px ;
 
+
+ .s-media {
+     margin-left: 70px;
+     margin-top: 10px;
+ }
+ .m-list {
+     margin-left: 90px;
+     margin-top: 30px;
+ }
+ .sFooter input[type=email] {
+     width: 50%;
  }
     
 
