@@ -1,0 +1,105 @@
+/*styling for smooth scrolling*/
+html {
+    scroll-behavior: smooth;
+}
+/*General styling*/
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+/*Navigation bar styling*/
+
+
+.navbar-brand{
+	color: #E62FE6!important;
+	font-weight: bold;
+	font-family: 'Prompt', sans-serif;
+}
+.navbar-toggler img{
+	width: 30px;
+}
+.nav-item{
+	margin: 10px;
+}
+.nav-link{
+	padding: 5px;
+	border: 4px solid transparent;
+	transition: 0.3s;
+	font-weight: bold;
+}
+.active{
+	color: #e62fe6!important;
+}
+
+.nav-link:hover {
+	color: #e62fe6!important;
+  	transition: 0.3s;
+}
+.login{
+	background-color: #efefef !important;
+	color: #333333 !important;
+	padding: 5px;
+	width: 100px;
+	border-radius: 20px!important;
+}
+.register{
+	background-color: #e62fe6 !important;
+	color: #ffffff !important;
+	margin-left: 10px;
+	padding: 5px;
+	width: 100px;
+	border-radius: 20px!important;
+}
+.login:hover, .register:hover{
+	color: #ffffff !important;
+	background: #333 !important;
+}
+.wrapper{
+	margin: 50px auto;
+	border-radius: 10px;
+	padding: 50px 0 50px 0;
+}
+.feature-box{
+	padding: 30px;
+}
+.feature-box h1{
+	margin-bottom: 10px;
+	color: #333;
+}
+.feature-box .dot{
+	color: #e62fe6;
+	font-weight: bold;
+	font-size: 30px;
+}
+.feature-box p{
+	color: #666666;
+	margin: 50px auto;
+}
+
+.feature-box p span{
+	color: #333;
+	font-weight: bold;
+}
+
+.feature-box .start-btn{
+	text-decoration: none !important;
+	background-color: #e62fe6;
+	color: #ffffff;
+	padding: 10px 20px;
+	margin-right: 30px;
+	border-radius: 50px;
+	transition: 0.3s;
+}
+.feature-box .start-btn:hover{
+	background-color: #333;
+	color: #fff;
+	transition: 0.3s;
+}
+.feature-img{
+	width: 100%;
+	padding: 40px;
+}
+.play-btn{
+	width: 150px;
+	margin: 100px 20px 0 0;
+}
