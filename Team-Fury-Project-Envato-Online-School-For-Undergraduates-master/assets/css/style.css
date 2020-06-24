@@ -238,10 +238,13 @@ a i {
 .float img {
    width: 10%;
 }
-
 	.media {
-		width:100%;
+		margin-right: -20px;
+	}
+	.media img {
+		width:30%;
 		height:auto;
+		margin-left: 90px;
 	}
  .s-media {
      margin-left: 80px;
