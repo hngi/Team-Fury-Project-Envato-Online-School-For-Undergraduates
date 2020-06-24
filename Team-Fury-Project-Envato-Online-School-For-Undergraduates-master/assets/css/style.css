@@ -117,7 +117,7 @@ font-size:18px;
     color: #e62fe6;
 }
 
-.media img {
+.person1 img {
     width: 14%;
 }
 
@@ -131,53 +131,74 @@ font-size:18px;
 }
 
 /*************************************************
+                GALLERY PAGE
+*************************************************/
+header .carousel-inner img {
+    width:100%;
+    min-height: auto;
+}
+.top-border{
+    border-top: 5px solid#E62FE6;
+    width:10%;
+
+}
+.bottom-border{
+    border-top: 4px solid #f0b1f0;
+    width:100%;
+   
+}
+.g-header {
+    color: #E62FE6;
+}
+.st-test {
+    color: #E62FE6;
+}
+.person4 {
+    background: #E62FE6;
+}
+
+
+
+/*************************************************
             FOOTER
 **************************************************/
 footer{
     background-color: #E62FE6;
     color: white;
-    padding:50px 0;
 }
-footer .footer{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-}
-footer .fh{
-font-size: 20px;
-padding-bottom: 10px;
-}
-footer .flex{
-    display: flex;
-   justify-content: space-between;
-   width: 60%;
-}
-footer .flex li{
-    padding:0 20px ;
-}
+
 footer ul li{
     list-style: none;
     padding: 5px 0;
 }
-footer .m-b li{
-    margin-left:-40px;
-}
+
 footer ul li a{
     color: white;
 }
 footer  .newsletters{
     display: flex;
 }
-footer  .newsletters input{
+footer input[type=email]{
     background-color:transparent;
     border: 1px solid rgb(189, 188, 188);
     padding:0 10px ;
 }
     
-footer  .newsletters .btn{
+footer .btn-primary{
 color: #E62FE6;
 background-color: #fff;
 border-radius: 0;
 }
+a i {
+    color: white;
+}
+.sFooter a {
+    text-decoration: none;
+}
+.sFooter a:hover {
+    color: #f0b1f0;
+}
+
  /****************************************
         Media Query
  ****************************************/
@@ -187,21 +208,22 @@ border-radius: 0;
         border: 0px;
         position: absolute;
         top: 200px;
-        left:40px;
+        left:30px;
     }
     .z-mrkt {
     font-size: 30px;
     position: absolute;
     top: 20px;
-    left: 20px;
+    left: 10px;
+    font-size: 22px;
 }
     .float {
         width: 45%;
         height:40%;
         position:absolute;
         background: #fbeafb;
-        top: 130px;
-        left: 200px;
+        top: 110px;
+        left: 180px;
         padding-left: 25px;
 }
     .float h5 {
@@ -217,4 +239,41 @@ border-radius: 0;
    width: 10%;
 }
 
+
+ .s-media {
+     margin-left: 80px;
+     margin-top: 10px;
+ }
+ .m-list {
+     margin-left: 100px;
+     margin-top: 30px;
+ }
+ .sFooter input[type=email] {
+     width: 50%;
+ }
+    
+
+
+ @media (max-width:480px) {
+     .float {
+        width: 45%;
+        height:40%;
+        position:absolute;
+        background: #fbeafb;
+        top: 110px;
+        left: 160px;
+        padding-left: 25px;
+}
+    .float h5 {
+        font-size: 12px;
+        padding-top: 15pt;
+        position: absolute;
+        top: -40px;
+}
+    .float strong {
+        font-size:8px;
+}
+    .float img {
+        width: 10%;
+ }
  }
