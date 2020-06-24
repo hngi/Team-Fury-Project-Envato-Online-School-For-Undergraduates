@@ -238,8 +238,8 @@ a i {
 .float img {
    width: 10%;
 }
-	.media {
-		margin-right: -20px;
+	.media-body {
+		margin-left: -50px;
 	}
 	.media img {
 		width:30%;
